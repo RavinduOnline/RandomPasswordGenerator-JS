@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Password Generator</title>
+    <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/2665/premium/2665240.png?token=exp=1637174874~hmac=011fc40fbc4831a040b2858b4f39350d" type="image/x-icon">
 
     <link rel="stylesheet" href="styleSheet.css">
     
 </head>
-<body>
 
+<body>
+    <!--Icons-->
+    <script defer src="https://kit.fontawesome.com/4d760ba099.js" crossorigin="anonymous"></script>
+    <!--Main JS File-->
     <script defer src="script.js"></script>
 
-    <h2>Random Password Generator</h2> 
+    <h2><a href="https://ravinduonline.github.io/RandomPasswordGenerator-JS/"> <i class="fas fa-unlock"></i> &nbsp;
+        Random Password Generator</a></h2> 
 
     <div class="main-container">
         <input type="text" placeholder="Password" id="Password" readonly> 
          <br/> 
-         <button type="submit" onclick="getpassword()">Generate Password</button>
+    </div>
+    <div class="sub-container">
+         <button class="PwGenBtn"type="submit" onclick="getpassword()">Generate Password</button>
+
+         <button class="copyBtn"><i class="fas fa-copy"></i></button>
     </div>
 
 
 
     <footer>
-        <p>Designed & Developed By <a href="https://ravindurasanga.web.app">Ravindu Rasanga</a></p>
+        <p class="footer_txt">Designed & Developed By <a class="profile" href="https://ravindurasanga.web.app">Ravindu Rasanga</a></p>
     </footer>
     
 </body>
