@@ -15,6 +15,8 @@ body {
 }
 
 
+
+
 h2 {
     margin: 0%;
     padding: 0%;
@@ -34,9 +36,11 @@ input {
     padding-right: 15px;
     box-shadow: 0px 0px 20px red,
     inset 5px 5px 10px #888888;
+    font-size: 16px;
+    padding-left: 10px;
+    text-align: center;
     
 
-    
 }
 
 ::placeholder{
@@ -53,7 +57,8 @@ button {
     margin-left: 20px;
     font-size: 16px;
     background-color: green;
-    color: white;
+    color: white; 
+    box-shadow: 0px 0px 20px rgb(15, 138, 179);
 }
 
 button:hover{
@@ -66,4 +71,9 @@ footer {
     color: white;
     text-align: center;
     font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: red;
 }
