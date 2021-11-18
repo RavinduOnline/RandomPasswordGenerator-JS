@@ -24,14 +24,15 @@
     <div class="main-container">
         <div class="input-container">
             <input type="text" placeholder="Password" id="Password" readonly> 
-            <button class="copyBtn"><i class="fas fa-copy"></i></button>
+            <button class="copyBtn" type="submit" onclick="copyPassword()"><i class="fas fa-copy"></i></button>
          </div>
     </div>
     <div class="sub-container">
-         <button class="PwGenBtn"type="submit" onclick="getpassword()">Generate Password</button>
+        <div>
+         <button class="PwGenBtn" type="submit" onclick="getpassword()">Generate Password</button> <br/>
+         <div id="alert-box"></div>
+        </div>
     </div>
-
-
 
     <footer>
         <p class="footer_txt">Designed & Developed By  <a class="profile" href="https://ravindurasanga.web.app">Ravindu Rasanga</a></p>

@@ -41,7 +41,7 @@ h2 {
 }
 
 input {
-    width: 230px;
+    width: 231px;
     height: 40px;
     border: none;
     border-radius: 10px 0px 0px 10px;
@@ -62,20 +62,25 @@ input:focus {
 
 .PwGenBtn {
     
-    width: 280px;
+    width: 284px;
     height: 40px;
     border: none;
     border-radius: 10px;
     font-size: 16px;
     background-color: green;
     color: white; 
-    box-shadow: 0px 0px 20px rgb(15, 138, 179);
 }
 
 .PwGenBtn:hover{
     background-color:  #FFA500;
     color: white;
     
+}
+
+#alert-box{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .copyBtn{
